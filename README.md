@@ -73,6 +73,4 @@ npm start
 
 🎉 **Happy Coding!** 🚀
 
----
 
-This structure follows the same format as your "Bookly.io" project, making it easy to navigate while highlighting the essential features and setup instructions for the "Easy Way - Online Mess Services" app. Let me know if you'd like to adjust any details!
