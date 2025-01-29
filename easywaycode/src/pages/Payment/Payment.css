@@ -1,0 +1,97 @@
+/* PaymentForm.css */
+
+.payment-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.payment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group div label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .payment-form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}

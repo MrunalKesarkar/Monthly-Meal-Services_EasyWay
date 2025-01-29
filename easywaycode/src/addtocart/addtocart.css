@@ -1,0 +1,133 @@
+/* Styling for the Add to Cart Page */
+
+/* General Cart Container */
+.cart {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Table Styling */
+.tablecart {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tablecart th {
+  color: #6c757d;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.tablecart td {
+  vertical-align: middle;
+}
+
+/* Product/Mess Image and Name */
+.messImage img {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.messname {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Quantity Controls */
+.input {
+  min-width: 40px;
+  text-align: center;
+}
+
+.btn-sm {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.btn-sm:hover {
+  background-color: #e0a800;
+}
+
+/* Delete Icon */
+.delete {
+  color: #dc3545;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #c82333;
+}
+
+/* Continue Shopping Button */
+.continue-shopping {
+  border: 1px solid #ffc107; /* Same color as btn-warning */
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffc107;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.continue-shopping:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+/* Order Summary Card */
+.card {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.card-body {
+  font-size: 14px;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+}
+
+.card-footer button {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card-footer button:hover {
+  background-color: #e0a800;
+}
+
+/* Miscellaneous */
+h2 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.tablecart tbody tr:hover {
+  background-color: #f1f3f5;
+}

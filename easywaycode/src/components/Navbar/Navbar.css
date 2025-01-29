@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+/* Ensure the navbar spans the full width of the viewport */
+.navbar {
+    width: 100%;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    height: 50px;
+    border: 2px solid rgb(24, 25, 23);
+  }
+  
+  /* Ensure the dropdown menu items have some padding */
+  .navbar .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+  }
+  
+  /* Style the search input */
+  .navbar .form-inline .form-control {
+    width: 200px;
+  }
+  
+  .navbar-brand img {
+    width: 30px;
+    height: 24px;
+  }
+  
+  /* Ensure the entire body takes up the full width of the viewport */
+  body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  .navbar_logo{
+    margin-right: 10px;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1;
+    min-width: 150px; /* Adjust the width of the dropdown menu */
+  }
+  
+  .dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu li {
+    padding: 10px;
+  }
+  
+  .dropdown-menu li a, .dropdown-menu li button {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li a:hover, .dropdown-menu li button:hover {
+    background-color: #f1f1f1;
+  }
+  
